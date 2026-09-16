@@ -26,31 +26,17 @@ The project demonstrates a production-style observability stack where:
 
 ## Screenshots
 
-You can add screenshots directly to the README using relative image paths.
+These screenshots are stored in the repository and are ready to render on GitHub.
 
-Create a folder like this:
+### Nginx Metrics
 
-```text
-assets/
-└── screenshots/
-    ├── grafana-dashboard.png
-    ├── prometheus-targets.png
-    └── nginx-metrics.png
-```
+![Nginx Metrics](assets/screenshots/nginx%20metrics.png)
 
-Then include them like this:
+### System Information
 
-```md
-## Dashboard Overview
+![System Information](assets/screenshots/system_info.png)
 
-![Grafana Dashboard](assets/screenshots/image.png)
-
-## Prometheus Targets
-
-![Prometheus Targets](assets/screenshots/image2.png)
-```
-
-For GitHub, the images render best when stored in the repository and referenced by relative paths, such as `assets/screenshots/...`.
+> GitHub supports relative image paths in Markdown, and the files above are already included in the repo.
 
 ---
 
