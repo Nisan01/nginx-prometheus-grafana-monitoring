@@ -43,11 +43,11 @@ Then include them like this:
 ```md
 ## Dashboard Overview
 
-![Grafana Dashboard](assets/screenshots/grafana-dashboard.png)
+![Grafana Dashboard](assets/screenshots/image.png)
 
 ## Prometheus Targets
 
-![Prometheus Targets](assets/screenshots/prometheus-targets.png)
+![Prometheus Targets](assets/screenshots/image2.png)
 ```
 
 For GitHub, the images render best when stored in the repository and referenced by relative paths, such as `assets/screenshots/...`.
