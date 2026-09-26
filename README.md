@@ -327,4 +327,3 @@ This stack gives you a clear, real-time view of:
 - resource bottlenecks under load
 - a strong foundation for production monitoring workflows
 
-If you want, I can also turn this into a more polished GitHub landing page style README with screenshots, badges, and a cleaner deployment checklist for export.
