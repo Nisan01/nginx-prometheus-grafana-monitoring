@@ -157,6 +157,20 @@ cd /tmp
 wget https://github.com/nginxinc/nginx-prometheus-exporter/releases/download/v1.3.0/nginx-prometheus-exporter_1.3.0_linux_amd64.tar.gz
 tar xvf nginx-prometheus-exporter_1.3.0_linux_amd64.tar.gz
 sudo mv nginx-prometheus-exporter /usr/local/bin/
+
+OR through docker ps
+docker run -p 9113:9113 nginx/nginx-prometheus-exporter:1.5.1 --nginx.scrape-uri=http://<nginx>:8080/stub_status
+but
+<nginx> works if you have nginx container running ...
+if nginx is installed on the system then
+
+docker run -d \
+  --name nginx-exporter \
+  -p 9113:9113 \
+  --add-host=host.docker.internal:host-gateway \
+  nginx/nginx-prometheus-exporter:1.5.1 \
+  --nginx.scrape-uri=http://host.docker.internal:8080/nginx_status
+
 ```
 
 Create `/etc/systemd/system/nginx_exporter.service`:
