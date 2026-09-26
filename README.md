@@ -248,6 +248,9 @@ Enable and start Prometheus:
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable --now prometheus
+
+see the states:
+http://<ip>:9090/targets
 ```
 
 ### 4) Install Grafana and connect Prometheus
