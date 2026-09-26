@@ -26,7 +26,6 @@ The project demonstrates a production-style observability stack where:
 
 ## Screenshots
 
-These screenshots are stored in the repository and are ready to render on GitHub.
 
 ### Nginx Metrics
 
